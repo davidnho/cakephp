@@ -1,0 +1,7 @@
+
+
+2 - hidden
+1 - published
+
+2 - admin
+1 - regular user
