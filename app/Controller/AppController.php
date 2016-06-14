@@ -33,8 +33,8 @@ App::uses('Controller', 'Controller');
 class AppController extends Controller {
     public $helpers = array('Html');
     public $components = array(
-        'Session'
-        ,'Auth'
+//        'Session'
+//        ,'Auth'
 //        'DebugKit.Toolbar'
         );
 }

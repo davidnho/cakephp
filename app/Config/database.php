@@ -7,7 +7,7 @@ class DATABASE_CONFIG {
 		'host' => 'localhost',
 		'login' => 'root',
 		'password' => '',
-		'database' => 'forum_clone',
+		'database' => 'cakephp',
 //                'database' => 'forum',
 		'prefix' => '',
 		'encoding' => 'utf8'

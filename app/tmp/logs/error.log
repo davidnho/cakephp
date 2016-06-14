@@ -945,3 +945,83 @@ Stack Trace:
 #1 D:\www\cakeapp_clone\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
 #2 D:\www\cakeapp_clone\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2016-06-14 06:19:45 Error: [MissingControllerException] Controller class FormsController could not be found.
+Exception Attributes: array (
+  'class' => 'FormsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/forms
+Stack Trace:
+#0 D:\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-14 06:25:06 Error: [MissingControllerException] Controller class FormsController could not be found.
+Exception Attributes: array (
+  'class' => 'FormsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/forms
+Stack Trace:
+#0 D:\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-14 06:25:17 Error: [MissingControllerException] Controller class NamesController could not be found.
+Exception Attributes: array (
+  'class' => 'NamesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/names
+Stack Trace:
+#0 D:\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-14 06:25:22 Error: [MissingTableException] Table users for model User was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'users',
+  'class' => 'User',
+  'ds' => 'default',
+)
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 D:\www\cakephp\lib\Cake\Model\Model.php(3551): Model->setSource('users')
+#1 D:\www\cakephp\lib\Cake\Model\Model.php(1369): Model->getDataSource()
+#2 D:\www\cakephp\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#3 D:\www\cakephp\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('User', 'fields')
+#4 D:\www\cakephp\app\View\Users\login.ctp(3): FormHelper->create('User')
+#5 D:\www\cakephp\lib\Cake\View\View.php(948): include('D:\\www\\cakephp\\...')
+#6 D:\www\cakephp\lib\Cake\View\View.php(910): View->_evaluate('D:\\www\\cakephp\\...', Array)
+#7 D:\www\cakephp\lib\Cake\View\View.php(471): View->_render('D:\\www\\cakephp\\...')
+#8 D:\www\cakephp\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#9 D:\www\cakephp\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#10 D:\www\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 D:\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-06-14 06:26:03 Error: [MissingTableException] Table users for model User was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'users',
+  'class' => 'User',
+  'ds' => 'default',
+)
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 D:\www\cakephp\lib\Cake\Model\Model.php(3551): Model->setSource('users')
+#1 D:\www\cakephp\lib\Cake\Model\Model.php(1369): Model->getDataSource()
+#2 D:\www\cakephp\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#3 D:\www\cakephp\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('User', 'fields')
+#4 D:\www\cakephp\app\View\Users\login.ctp(3): FormHelper->create('User')
+#5 D:\www\cakephp\lib\Cake\View\View.php(948): include('D:\\www\\cakephp\\...')
+#6 D:\www\cakephp\lib\Cake\View\View.php(910): View->_evaluate('D:\\www\\cakephp\\...', Array)
+#7 D:\www\cakephp\lib\Cake\View\View.php(471): View->_render('D:\\www\\cakephp\\...')
+#8 D:\www\cakephp\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#9 D:\www\cakephp\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#10 D:\www\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 D:\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-06-14 06:29:17 Error: [MissingActionException] Action NamesController::add() could not be found.
+Exception Attributes: array (
+  'controller' => 'NamesController',
+  'action' => 'add',
+)
+Request URL: /cakephp/names/add
+Stack Trace:
+#0 D:\www\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\www\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(NamesController), Object(CakeRequest))
+#2 D:\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
